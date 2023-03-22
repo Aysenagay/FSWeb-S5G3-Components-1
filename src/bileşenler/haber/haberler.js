@@ -146,7 +146,6 @@ function haberYapici(haber) {
   ButtonOlustur.textContent = "+";
   ButtonOlustur.addEventListener("click", (event) => {
     const acikHaber = document.querySelector(".article-open");
-    if (acikHaber != null) acikHaber.classList.remove("article-open");
     haberKutu.classList.toggle("article-open");
   });
   haberKutu.appendChild(ButtonOlustur);
